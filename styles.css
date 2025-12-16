@@ -454,7 +454,13 @@ body {
 
 .project-link:hover {
     color: var(--color-accent-light);
-    gap: var(--spacing-sm);
+}
+
+.project-links {
+    display: flex;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 /* Education Section */
